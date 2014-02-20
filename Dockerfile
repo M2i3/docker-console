@@ -7,7 +7,7 @@
 FROM ubuntu
 MAINTAINER Jean-Marc Lagace <jean-marc@m2i3.com>
 
-RUN apt-get install -y wget unzip nano
+RUN apt-get install -y wget unzip nano less lsb-release
 
 
 VOLUME ["/srv"]
