@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y wget unzip nano less lsb-release
 
 
 VOLUME ["/srv"]
-CMD [""]
+
 ENTRYPOINT ["/bin/bash","--login"]
 
 
