@@ -7,7 +7,7 @@
 FROM ubuntu
 MAINTAINER Jean-Marc Lagace <jean-marc@m2i3.com>
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get install -y wget unzip nano less lsb-release
+RUN apt-get update && apt-get install -y wget unzip nano less lsb-release git
 
 
 VOLUME ["/srv"]
